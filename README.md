@@ -8,6 +8,10 @@ SPDX-License-Identifier: Apache-2.0
 **프롬프트 난이도·특성에 따라 최적 모델을 선택하는 compute-efficient routing
 오픈소스 라우터 개발 챌린지**
 
+> 이 fork의 최종 참가 라우터는 [`docs/PARTICIPANT_ROUTER.md`](docs/PARTICIPANT_ROUTER.md)에
+> 정리되어 있습니다. 컨테이너 entrypoint는 E01 prompt-aware router를 실행하고,
+> artifact 또는 예측 신뢰성 문제가 있으면 C2 tier-fixed 정책으로 복귀합니다.
+
 이 과제에서는 입력 프롬프트의 내용만 보고 다음 세 평가용 모델 프로필 중 하나를
 선택하는 라우터를 만듭니다.
 
